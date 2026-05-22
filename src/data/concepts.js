@@ -22,7 +22,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Britannia Industries',
-        story: 'Parth Barad at IIM Mumbai led a live project for Britannia involving strategic procurement through demand planning. Using ABC-XYZ analysis, the team aligned inventory with demand patterns and automated supplier risk assessment for 450+ vendors using VBA macros — cutting review time by 80%.',
+        story: 'A supply chain strategy project at Britannia involving strategic procurement through demand planning. Using ABC-XYZ analysis, the team aligned inventory with demand patterns and automated supplier risk assessment for 450+ vendors using VBA macros — cutting review time by 80%.',
         outcome: 'Automated 95% of supplier assessments, improving speed and decision quality across Britannia\'s procurement function.'
       },
       tools: ['SAP Ariba', 'Oracle Procurement', 'Coupa', 'MS Excel/VBA', 'Power BI', 'Icertis (contracts)'],
@@ -51,8 +51,8 @@ export const conceptsData = {
         { name: 'Dead Stock %', desc: '% of inventory with no movement in 90+ days' }
       ],
       realExample: {
-        company: 'CaptainFresh',
-        story: 'During his internship at CaptainFresh, Parth Barad identified ₹29 Crore in high-risk aging seafood stock using a 2x2 Liquidation Matrix categorizing inventory by age and revenue. He also optimized SKU codes reducing MDM complexity.',
+        company: 'Indian Seafood Exporter',
+        story: 'A supply chain analyst identified ₹29 Crore in high-risk aging seafood stock using a 2x2 Liquidation Matrix categorizing inventory by age and revenue. He also optimized SKU codes reducing MDM complexity.',
         outcome: 'Saved ₹1.4 Crore in obsolescence and storage costs, improved Customer Service Level (CSL), and reduced excess inventory across the cold chain.'
       },
       tools: ['Oracle MM', 'SAP MM', 'Zoho Inventory', 'Fishbowl', 'Advanced Excel', 'Power BI', 'Python (Pandas)'],
@@ -109,8 +109,8 @@ export const conceptsData = {
         { name: 'Demand Signal Coverage', desc: '% of demand captured through real-time data vs historical data only' }
       ],
       realExample: {
-        company: 'CaptainFresh — Seafood Export Forecasting',
-        story: 'Parth Barad achieved a MAPE of 6.5% forecasting 2025 Cephalopod export demand using ARIMA and SARIMA time-series models in Python — significantly better than the 15-20% industry average for seafood exports.',
+        company: 'Seafood Export Company — Demand Forecasting',
+        story: 'An analyst achieved a MAPE of 6.5% forecasting 2025 Cephalopod export demand using ARIMA and SARIMA time-series models in Python — significantly better than the 15-20% industry average for seafood exports.',
         outcome: 'Enabled strategic procurement decisions for 2025 exports, aligned cold storage capacity, and optimized vendor selection across 72+ cold storage facilities in the sourcing zone.'
       },
       tools: ['Python (statsmodels, scikit-learn)', 'R', 'SAP IBP', 'Oracle Demantra', 'Anaplan', 'Excel Solver'],
@@ -141,7 +141,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Britannia Industries — Supplier Risk Dashboard',
-        story: 'Parth Barad\'s live project at Britannia involved classifying 450+ suppliers into 3 risk tiers using AHP (Analytic Hierarchy Process) and building a Dynamic Supplier Risk Dashboard to visualize risk and prioritize mitigation strategies.',
+        story: 'A supply chain project at a leading FMCG company involved classifying 450+ suppliers into 3 risk tiers using AHP (Analytic Hierarchy Process) and building a Dynamic Supplier Risk Dashboard to visualize risk and prioritize mitigation.',
         outcome: 'Automated 95% of supplier assessments, cut review time by 80%, and gave Britannia real-time visibility into supplier risk across all plants.'
       },
       tools: ['SAP SRM', 'Coupa', 'Ariba Supplier Management', 'Power BI (dashboards)', 'MS Forms + VBA (automation)'],
@@ -170,7 +170,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Atul Chemicals — Predictive Maintenance',
-        story: 'Parth Barad established a Predictive Maintenance department at Atul Chemicals using MTBF & MTTR analysis on a 16-member team. He applied Precision Maintenance Techniques and developed Excel algorithms to analyze equipment KPIs, visualized in Power BI for proactive decision-making.',
+        story: 'A supply chain team established a Predictive Maintenance department at Atul Chemicals using MTBF & MTTR analysis on a 16-member team. He applied Precision Maintenance Techniques and developed Excel algorithms to analyze equipment KPIs, visualized in Power BI for proactive decision-making.',
         outcome: '₹97 Lakh cost saving in 8 months. Machine breakdowns reduced by 33%. Recognized as "Best Performer of the Quarter" by the General Manager.'
       },
       tools: ['Oracle EAM', 'SAP PM', 'Power BI', 'Excel (VBA)', 'Python', 'SCADA Systems'],
@@ -198,8 +198,8 @@ export const conceptsData = {
         { name: 'Return Rate %', desc: '% of goods returned from retailers/distributors back upstream' }
       ],
       realExample: {
-        company: 'Ofbusiness — B2B Distribution',
-        story: 'Ofbusiness built India\'s largest B2B raw material distribution platform, directly connecting manufacturers with raw material suppliers. In the garment vertical managed by Parth, ₹350 Crore P&L is handled through direct distribution channels cutting intermediary layers.',
+        company: 'B2B Raw Material Platform',
+        story: 'A leading B2B raw material platform directly connects manufacturers with suppliers, cutting out traditional distributor layers. In one garment vertical, a ₹350 Crore P&L is managed through direct distribution channels with no intermediary markups.',
         outcome: '~25% EBITDA delivered consistently by eliminating traditional distributor margins and streamlining the supply chain.'
       },
       tools: ['DMS (Distributor Management Systems)', 'Salesforce', 'SAP SD', 'Bizom', 'Swipe POS', 'Retailer Apps'],
@@ -259,7 +259,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Britannia — OTIF ERP Module',
-        story: 'Parth Barad designed an ERP prototype OTIF tracking module for Britannia to improve inbound material planning across all BIL plants. The module built automated OTIF computation, supplier scoring, and centralized real-time visibility.',
+        story: 'An ERP prototype OTIF tracking module was built for a large FMCG company to improve inbound material planning across all plants. The module automated OTIF computation, supplier scoring, and centralized real-time visibility.',
         outcome: 'Real-time OTIF visibility across all Britannia plants enabling data-driven supplier management and proactive exception handling.'
       },
       tools: ['SAP SD', 'Oracle OMS', 'Salesforce Commerce', 'Unicommerce', 'Vinculum', 'Zoho Inventory'],
@@ -287,8 +287,8 @@ export const conceptsData = {
         { name: 'Cost per Unit Handled', desc: 'Total warehouse cost divided by units processed — efficiency benchmark' }
       ],
       realExample: {
-        company: 'CaptainFresh — Warehouse Heatmap',
-        story: 'During his internship at CaptainFresh, Parth designed a Heat Map for the WMS tool enabling real-time tracking of Rack Weight and Species distribution. Using EDA, he identified 55.4% of warehouse space was unutilized.',
+        company: 'Cold Chain Warehouse — WMS Heatmap',
+        story: 'A supply chain analyst designed a Heat Map for the WMS tool enabling real-time tracking of Rack Weight and Species distribution. Using EDA, he identified 55.4% of warehouse space was unutilized.',
         outcome: 'Enhanced warehouse utilization and boosted capacity. Automated KPI tracking cut reporting time by 99.8% (from 2 hours to 15 seconds).'
       },
       tools: ['Manhattan Associates WMS', 'SAP EWM', 'Oracle WMS', 'Increff', 'Delhivery WMS', 'Python/Excel'],
@@ -377,7 +377,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Atul Chemicals — Oracle MM',
-        story: 'Parth Barad used Oracle MM (Materials Management) at Atul Chemicals to manage spare parts inventory, ensuring availability and control of critical maintenance materials. He applied ABC analysis within Oracle to optimize spare parts categorization.',
+        story: 'Oracle MM (Materials Management) was used at a specialty chemicals plant to manage spare parts inventory, ensuring availability and control of critical maintenance materials. ABC analysis within Oracle optimized spare parts categorization.',
         outcome: 'Optimized maintenance spares inventory, reduced excess stock levels, and ensured critical parts were always available when needed for machine maintenance.'
       },
       tools: ['SAP S/4HANA', 'Oracle ERP Cloud', 'Microsoft Dynamics 365', 'Tally (India SME)', 'Odoo (mid-market)'],
@@ -492,8 +492,8 @@ export const conceptsData = {
         { name: 'Dock Scheduling Efficiency', desc: 'Dock utilization % and average truck wait time at facility' }
       ],
       realExample: {
-        company: 'CaptainFresh — WMS Heat Map',
-        story: 'Parth Barad designed a Heat Map tool for CaptainFresh\'s WMS to enable real-time tracking of rack weight and species distribution across their cold warehouse, eliminating a manual 2-hour reporting process.',
+        company: 'Cold Chain Warehouse — WMS Heat Map',
+        story: 'A supply chain analyst designed a Heat Map tool integrated with the WMS to enable real-time tracking of rack weight and product distribution across a cold warehouse, eliminating a manual 2-hour reporting process.',
         outcome: 'Report generation time reduced by 99.8% (2 hours → 15 seconds). 55.4% unutilized warehouse space identified and reclaimed for additional inventory.'
       },
       tools: ['Manhattan Associates WMS', 'Blue Yonder WMS/TMS', 'Oracle WMS', 'SAP EWM', 'Locus TMS', 'Flexport'],
@@ -582,7 +582,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Atul Chemicals — ₹97L Savings',
-        story: 'Through establishing a Predictive Maintenance department using MTBF & MTTR analysis, Parth Barad delivered ₹97 Lakh cost savings in 8 months at Atul Chemicals by reducing unplanned machine breakdowns by 33% and eliminating emergency repair costs.',
+        story: 'Through establishing a Predictive Maintenance department using MTBF & MTTR analysis, The team delivered ₹97 Lakh cost savings in 8 months at Atul Chemicals by reducing unplanned machine breakdowns by 33% and eliminating emergency repair costs.',
         outcome: 'Recognized as "Best Performer of the Quarter" by GM. The cost savings justified a full predictive maintenance program rollout across the entire plant.'
       },
       tools: ['SAP Cost Management', 'Anaplan', 'Power BI (cost dashboards)', 'Python (cost optimization)', 'Excel/VBA (automation)'],
@@ -670,8 +670,8 @@ export const conceptsData = {
         { name: 'Floor Space Utilization', desc: 'Lean workplaces typically use 30-50% less floor space through 5S discipline' }
       ],
       realExample: {
-        company: 'Ofbusiness Garment Operations',
-        story: 'At Ofbusiness, Parth Barad applied lean principles to garment export operations — automating production planning via VBA (95% time reduction), monitoring KPIs like MMR and efficiency, and coordinating across procurement, production, IE, and XFN teams.',
+        company: 'Garment Export Company',
+        story: 'A garment export operation applied lean principles — automating production planning via VBA (95% time reduction), monitoring KPIs like MMR and efficiency, and coordinating across procurement, production, IE, and cross-functional teams.',
         outcome: 'End-to-end P&L of ₹350 Crore managed with ~25% EBITDA through operational discipline, waste elimination, and data-driven decision making.'
       },
       tools: ['Value Stream Mapping tools', 'Minitab (Six Sigma)', 'A3 Problem Solving templates', 'Gemba Walk checklists'],
@@ -729,7 +729,7 @@ export const conceptsData = {
       ],
       realExample: {
         company: 'Britannia — Supplier Risk Framework',
-        story: 'Parth Barad\'s Britannia project applied a Risk Assessment Framework to classify suppliers into 3 risk tiers, leveraging AHP and analytics. A Dynamic Supplier Risk Dashboard was built to visualize risk tiers and prioritize mitigation actions.',
+        story: 'A supply chain risk project at a large FMCG company applied a Risk Assessment Framework to classify 450+ suppliers into 3 risk tiers using AHP and analytics. A Dynamic Supplier Risk Dashboard was built to visualize risk tiers and prioritize mitigation actions.',
         outcome: 'Automated validation of 450+ supplier risk responses via VBA, cutting review time by 80% and improving strategic risk management across Britannia\'s entire supply base.'
       },
       tools: ['Riskmethods', 'Resilinc', 'EcoVadis', 'Power BI (risk dashboards)', 'Python (risk modeling)', 'Excel (risk registers)'],

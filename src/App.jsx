@@ -78,9 +78,9 @@ const ConceptDetail = ({ concept, onClose }) => {
               <p className="text-sm text-orange-700 dark:text-orange-300 leading-relaxed">{concept.indianContext}</p>
             </section>
             <div className="text-center pt-2 pb-2">
-              <a href="https://www.linkedin.com/in/parth-barad-iimm" target="_blank" rel="noopener noreferrer" className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg shadow-blue-500/20">
-                Discuss This with Parth on LinkedIn →
-              </a>
+              <button onClick={onClose} className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-xl transition-colors shadow-lg shadow-blue-500/20">
+                Close ✕
+              </button>
             </div>
           </div>
         </div>
@@ -180,7 +180,7 @@ export default function SupplyChainWebsite() {
             <section className="text-center space-y-6 py-12">
               <div className="inline-flex items-center gap-2 bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 px-4 py-2 rounded-full text-sm border border-blue-200 dark:border-blue-800">
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-                IIM Mumbai · Gold Medalist · Patent Holder · ₹350Cr P&L
+                Comprehensive · India-Focused · Real-World Examples
               </div>
               <h1 className="text-4xl sm:text-6xl font-black text-slate-900 dark:text-white leading-tight">
                 Master Supply Chain<span className="block bg-gradient-to-r from-blue-600 to-cyan-600 bg-clip-text text-transparent">Concepts & Practices</span>
@@ -253,8 +253,7 @@ export default function SupplyChainWebsite() {
       <footer className="border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-950 mt-20">
         <div className="max-w-7xl mx-auto px-6 py-10 text-center text-slate-600 dark:text-slate-400">
           <p className="font-bold text-lg mb-1 text-slate-900 dark:text-white">SupplyChain Hub</p>
-          <p className="text-sm mb-2">By Parth Barad · IIM Mumbai (Gold Medalist, Patent Holder) · ₹350Cr P&L · ₹97L Cost Saved</p>
-          <a href="https://www.linkedin.com/in/parth-barad-iimm" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline text-sm font-medium">Connect on LinkedIn →</a>
+          <p className="text-sm mb-2">A comprehensive guide to modern supply chain management with real-world examples and India context.</p>
           <p className="text-xs text-slate-400 mt-4">© {new Date().getFullYear()} SupplyChain Hub. All rights reserved.</p>
         </div>
       </footer>
